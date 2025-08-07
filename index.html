@@ -17,28 +17,38 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-white">
-    <div class="container d-flex justify-content-between align-items-center">
-      <a class="navbar-brand" href="#">
-         <img src="imgs/logo1.jpg" alt="logo">
-        
-      </a>
-      <ul class="navbar-nav  flex-row align-items-center">
+ 
+
+<nav class="navbar navbar-expand-lg bg-white">
+  <div class="container d-flex justify-content-between align-items-center">
+
+    <a class="navbar-brand" href="#">
+      <img src="imgs/logo1.jpg" alt="logo">
+    </a>
+
+    <!-- Navbar Toggler (for mobile view) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Responsive Navbar Menu -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+      <ul class="navbar-nav  flex-wrap align-items-center">
         <li class="nav-item">
           <a class="nav-link active" href="index.html">Home</a>
         </li>
-          <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="coach.html">Technical  Registration</a>
+          <a class="nav-link" href="coach.html">Technical Registration</a>
         </li>
-      
         <li class="nav-item">
           <a class="nav-link" href="reg.html">Athlete Registraon</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="coachregpage.html">Coach Registration </a>
+          <a class="nav-link" href="coachregpage.html">Coach Registration</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="schemes.html">Schemes</a>
@@ -46,10 +56,15 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact Us</a>
         </li>
-        
       </ul>
     </div>
-  </nav>
+
+  </div>
+</nav>
+
+<!-- Bootstrap JS for navbar functionality -->
+
+
 
 
 <!-- SECTION: Sports Audition Hero Slider -->
@@ -128,15 +143,7 @@
                      <li><i class="fas fa-check"></i>Through its website, GSF aims to digitally connect with coaches, players, and academies across India. By registering online, you can stay updated on matches, events, and opportunities offered by GSF</li>
        
       </ul>
-    <!-- <div class="text">
-      GEENIUS SPORTS FEDERATION, INDIA (GSF INDIA) is a digital MIS, which envisages to provide a comprehensive digital solution for all the major stakeholders such as Athletes, Coaches, Sports Scientists, Sports Training Centers, Federations and Administrators.
-    </div>
-    <div class="text">
-      It is an open platform of the sports eco-system where Athletes, Coaches and Academies can register themselves. On successful registration, a Unique ID is generated, which is used for accessing the GEENIUS SPORTS FEDERATION.
-    </div>
-    <div class="text">
-     Geenius Sports Federation (GSF) stands committed to fostering a transparent and efficient sporting infrastructure using cutting-edge technology, making sports more inclusive, accountable, and performance-driven across the nation.
-    </div> -->
+   
     
    <a href="about.html"> <button class="custom-btn btn-3"><span>Read More</span></button></a>
   </div>
@@ -162,55 +169,13 @@
 
 
 
-<section class="registration-section py-5 mt-4">
-  <div class="container text-center">
-    <h2 class="section-title">REGISTRATIONS ON GEENIUS <br>SPORTS FEDERATION</h2>
-    <div class="section-divider"></div>
-
-    <div class="row mt-5">
-      <!-- Athletes -->
-      <div class="col-6 col-md-3">
-        <div class="stat-box">
-          <img src="imgs/Athletes-h1.png" alt="Athletes" class="stat-img">
-          <h4 class="stat-number">402863+</h4>
-          <p class="stat-label">ATHLETES</p>
-        </div>
-      </div>
-      <!-- Coaches -->
-      <div class="col-6 col-md-3">
-        <div class="stat-box">
-          <img src="imgs/Coach-h1.png" alt="Coaches" class="stat-img">
-          <h4 class="stat-number">30577+</h4>
-          <p class="stat-label">COACHES</p>
-        </div>
-      </div>
-      <!-- Sports Scientist -->
-      <div class="col-6 col-md-3 mt-4 mt-md-0">
-        <div class="stat-box">
-          <img src="imgs/Sports-Scientisth1.png" alt="Sports Scientist" class="stat-img">
-          <h4 class="stat-number">2889+</h4>
-          <p class="stat-label">Sports Event</p>
-        </div>
-      </div>
-      <!-- Training Center -->
-      <div class="col-6 col-md-3 mt-4 mt-md-0">
-        <div class="stat-box">
-          <img src="imgs/Sports-Training-Center-h1.png" alt="Training Center" class="stat-img">
-          <h4 class="stat-number">7162+</h4>
-          <p class="stat-label">SPORTS TRAINING CENTER</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
-
-<div class="container-fluid bg-light">
+<div class="container-fluid bg-white">
 <div class="container">
     <div class="row objectives-section">
     <!-- Left Column -->
-    <div class="col-lg-8">
+    <!-- <div class="col-lg-8">
       <h2>OBJECTIVES</h2>
       <ul class="objectives-list list-unstyled mt-4">
         <li><i class="fas fa-arrow-right"></i>To promote and broad-base sports in the country.</li>
@@ -224,44 +189,93 @@
 
       <div class="mission-title">Mission</div>
       <p class="mt-2">To develop and promote sports at all levels, and to provide world-class infrastructure, training facilities and coaching to athletes.</p>
-    </div>
+    </div> -->
+   <div class="col-lg-8 col-12">
 
+<section class="registration-section pb-5">
+  <div class="container text-center ">
+    <h2 class="section-title">REGISTRATIONS ON GEENIUS <br>SPORTS FEDERATION</h2>
+    <div class="section-divider"></div>
+
+    <div class="row mt-5">
+      <!-- Athletes -->
+      <div class="col-6 col-md-6">
+        <div class="stat-box">
+          <img src="imgs/Athletes-h1.png" alt="Athletes" class="stat-img">
+          <h4 class="stat-number">402863+</h4>
+          <p class="stat-label">ATHLETES</p>
+        </div>
+      </div>
+      <!-- Coaches -->
+      <div class="col-6 col-md-6">
+        <div class="stat-box">
+          <img src="imgs/Coach-h1.png" alt="Coaches" class="stat-img">
+          <h4 class="stat-number">30577+</h4>
+          <p class="stat-label">COACHES</p>
+        </div>
+      </div>
+      <!-- Sports Scientist -->
+      <div class="col-6 col-md-6 mt-4 mt-md-0">
+        <div class="stat-box">
+          <img src="imgs/cogwheel_283606.png" alt="Sports Scientist" class="stat-img">
+          <h4 class="stat-number">2889+</h4>
+          <p class="stat-label">Sports Event</p>
+        </div>
+      </div>
+      <!-- Training Center -->
+      <div class="col-6 col-md-6 mt-4 mt-md-0">
+        <div class="stat-box">
+          <img src="imgs/Sports-Training-Center-h1.png" alt="Training Center" class="stat-img">
+          <h4 class="stat-number">7162+</h4>
+          <p class="stat-label">SPORTS TRAINING CENTER</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   </div>
     <!-- Right Column -->
-    <div class="col-lg-4">
-      <div class="key-functions-box text-center mb-3">
-        <h4>KEY FUNCTIONS</h4>
-      </div>
+   <div class="col-lg-4">
+  <div class="key-functions-box text-center mb-3">
+    <h4>KEY FUNCTIONS</h4>
+  </div>
 
-      <div class="side-card">
-        <i class="fas fa-school"></i>
-        <span>Capacity building through Academic Institutions</span>
-      </div>
+  <div class="side-card">
+    <i class="fas fa-running"></i>
+    <span>ATHLETE  </span>
+  </div>
 
-      <div class="side-card">
-        <i class="fas fa-tools"></i>
-        <span>Sports Infrastructure Development & Maintenance</span>
-      </div>
+  <div class="side-card">
+    <i class="fas fa-chalkboard-teacher"></i>
+    <span>Cocha  </span>
+  </div>
 
-      <div class="side-card">
-        <i class="fas fa-search"></i>
-        <span>Talent Identification & Development</span>
-      </div>
+  <div class="side-card">
+    <i class="fas fa-user-check"></i>
+    <span>TECHNICAL OFFICIAL </span>
+  </div>
 
-      <div class="side-card">
-        <i class="fas fa-heartbeat"></i>
-        <span>Promotion of Fitness and Inclusivity</span>
-      </div>
+  <div class="side-card">
+    <i class="fas fa-dumbbell"></i>
+    <span>Training centre  </span>
+  </div>
 
-      <div class="side-card">
-        <i class="fas fa-running"></i>
-        <span>Sports Excellence & High-Performance Training (TOPS & Assistance to NSFs)</span>
-      </div>
+  <div class="side-card">
+    <i class="fas fa-gavel"></i>
+    <span>GSF.rules </span>
+  </div>
 
-      <div class="side-card">
-        <i class="fas fa-vial"></i>
-        <span>Sports science support to athletes (NCSSR)</span>
-      </div>
-    </div>
+  <div class="side-card">
+    <i class="fas fa-check-circle"></i>
+    <span>Verification</span>
+  </div>
+</div>
+
+
+
+
+
   </div>
 </div>
 </div>
@@ -275,7 +289,7 @@
   <div class="row d-flex align-items-center justify-content-center">
     <div class="col-lg-5">
         <p class="text-uppercase  fw-semibold mb-1">Our Partners</p>
-    <h2 class="fw-bold mb-4 text-dark">Our Trusted Partners in <br> Building India’s Sporting <br> Future</h2>
+    <h2 class="fw-bold mb-4 text-dark">Trusted Pillars of India’s <br> Sporting Future</h2>
 
    
     </div>
@@ -322,7 +336,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 mb-4 mb-lg-0 mx-auto  d-flex justify-content-center">
+      <div class="col-lg-4 mb-4 mb-lg-0  d-flex justify-content-center new-footer-class">
       <div class="footer-links">
           <h5 class="footer-heading">Useful Links</h5>
         <ul class="footer-links list-unstyled">
@@ -348,7 +362,7 @@
     </a>
   </li>
   <li>
-    <i class="fas fa-phone me-2 text-warning"></i>
+    <i class="fas fa-phone-alt me-2 text-warning"></i>
     <a href="tel:+919588621542" class="text-white text-decoration-none">+91 9588621542</a>
   </li>
   <li>
