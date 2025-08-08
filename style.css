@@ -1270,7 +1270,7 @@ background: linear-gradient(0deg, #003b79 0%, #003b79 100%);
 
         @media (max-width: 768px) {
             .container {
-                margin: 10px;
+         
                 border-radius: 15px;
             }
             
@@ -1611,4 +1611,75 @@ background: linear-gradient(0deg, #003b79 0%, #003b79 100%);
   width: 100%;
   height: 80px;
 }
+.breadcrumb-section {
+       padding: 28px 0;
+   }
+   .breadcrumb-title {
+    font-size: 26px;
+    margin-bottom: 3px;
+}
+.breadcrumb-item{
+  font-size: 10px;
+}
+.gsf-purpose-heading {
+        font-size: 30px;
+    }
+    .gsf-purpose-subheading {
+    font-size: 13px;
+    color: #6c757d;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.form-header {
+  padding: 20px 10px !important;
+ 
+}
+.form-header h1 {
+    font-size: 22px !important;
+     margin-bottom: 10px !important;
+}
+.form-header h3 {
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    margin-bottom: 12px !important;
+}
+.form-header p {
+    font-size: 14px !important;
+}
+.section-header h4 {
+    font-size: 18px;
+            padding-left: 20px !important;
+   
+}
+
+
+.section-icon {
+      height: 43px !important;
+      width: 43px !important;
+ }
+ .form-section {
+    padding: 1px 9px 40px 9px !important;
+}
+
+.declaration-section {
+    padding: 13px !important;
+   }
+.attachment-section h4 {
+      font-size: 18px !important;
+}
+
+.full_section_con {
+    margin-top: 15px;
+   }
+
+.bg-container .row .col-lg-12 {
+    background-color: #f4f4f4 !important;
+    padding: 0px;
+}
+
+
+
+
+
+
         }
