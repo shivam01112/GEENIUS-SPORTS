@@ -1532,7 +1532,7 @@ background: linear-gradient(0deg, #003b79 0%, #003b79 100%);
   margin: 0px !important;
 }
 .navbar .container{
-  padding: 0px !important;
+ 
   margin: 0px !important;
 }
  .nav-item:not(:last-child)::after {
